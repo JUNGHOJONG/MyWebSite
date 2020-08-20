@@ -1,0 +1,12 @@
+.titleBackground{
+        background: black;
+        height: 50px;
+      }
+.titleFont{
+        color: ghostwhite;
+        position: relative;
+        left: 3.5%;
+      }
+.partLine{
+        color: aliceblue;
+      }
