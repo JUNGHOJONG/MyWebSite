@@ -6,15 +6,16 @@
     <style>
         body{
             margin: 0;
-            padding-right: 200px;
-            padding-left: 200px;
+            padding-right: 12%;
+            padding-left: 12%;
             padding-bottom: 200px;
         }
         a {
             text-decoration: none;
             color: black;
             position: relative;
-            top: 290px;
+/*            bottom: 100%;*/
+            top: 130%;
         }
         h1 {
             border-bottom: 4px solid orange;
@@ -27,9 +28,11 @@
         img {
             border: 1px solid #ddd;
             border-radius: 4px;
-            margin: 20px;
             padding: 5px;
             width: 75%;
+            margin: 0;
+            position: relative;
+            top: 15%;
         }
         .grid{
             display: grid;
@@ -38,27 +41,31 @@
             font-weight: bold;
             text-align: center;
         }
+/*
         #stripe{
             border-left: 1px solid orange;
             position: relative;
-            left: 190px;
-            bottom: 325px;
-            padding: 36px;
+            left: 50%; 
+            bottom: 40%;
+            padding: 7%;
         }
+*/
     </style>
 </head>
 <body>
     <h1>Davinci.J</h1>
     <ul class="grid">
-        <div><a href="20200817plan.html" title="TodoList">Today's plan</a></div>
-        <div><a href="myJobPlan.html" title="JobPlan">Job plan</a></div>
-        <div><a href="portpolio.html" title="Portpolio">Portpolio</a></div>
+<!--
+        <div id="stripe"></div>
+        <div id="stripe"></div>
+        <div id="stripe"></div>
+-->
         <div><img src="mountainAndDog.jpg"></div>
         <div><img src="flyingBike.jpg"></div>
         <div><img src="mountainAndPerson.jpg"></div>
-        <div id="stripe"></div>
-        <div id="stripe"></div>
-        <div id="stripe"></div>
+        <div><a href="20200817plan.html" title="TodoList">Today's plan</a></div>
+        <div><a href="myJobPlan.html" title="JobPlan">Job plan</a></div>
+        <div><a href="portpolio.html" title="Portpolio">Portpolio</a></div>
     </ul>
 </body>
 </html>
