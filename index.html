@@ -3,13 +3,62 @@
 <head>
     <title>Davinci.J's WebSite</title>
     <meta charset="utf-8">
+    <style>
+        body{
+            margin: 0;
+            padding-right: 200px;
+            padding-left: 200px;
+            padding-bottom: 200px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            position: relative;
+            top: 290px;
+        }
+        h1 {
+            border-bottom: 4px solid orange;
+            margin: 0px;
+            padding: 30px;
+            text-align: center;
+            font-size: 50px;
+            color: black;
+        }
+        img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 20px;
+            padding: 5px;
+            width: 75%;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        #stripe{
+            border-left: 1px solid orange;
+            position: relative;
+            left: 190px;
+            bottom: 325px;
+            padding: 36px;
+        }
+    </style>
 </head>
 <body>
     <h1>Davinci.J</h1>
-    <ul>
-        <li><a href="20200817plan.html" target="_blank" title="TodoList">오늘의 계획</a></li>
-        <li><a href="myJobPlan.html" target="_blank" title="JobPlan">취업 공고</a></li>
-        <li><a href="portpolio.html" target="_blank" title="Portpolio">포트폴리오</a></li>
+    <ul class="grid">
+        <div><a href="20200817plan.html" title="TodoList">Today's plan</a></div>
+        <div><a href="myJobPlan.html" title="JobPlan">Job plan</a></div>
+        <div><a href="portpolio.html" title="Portpolio">Portpolio</a></div>
+        <div><img src="mountainAndDog.jpg"></div>
+        <div><img src="flyingBike.jpg"></div>
+        <div><img src="mountainAndPerson.jpg"></div>
+        <div id="stripe"></div>
+        <div id="stripe"></div>
+        <div id="stripe"></div>
     </ul>
 </body>
 </html>
